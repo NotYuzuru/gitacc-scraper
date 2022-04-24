@@ -1,0 +1,27 @@
+{
+  "name": "gitacc-scraper",
+  "version": "1.0.0",
+  "description": "a scraper to scrape some github user profile data",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "NotYuzuru",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotYuzuru/gitacc-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NotYuzuru/gitacc-scraper/issues"
+  },
+  "homepage": "https://github.com/NotYuzuru/gitacc-scraper#readme"
+}
